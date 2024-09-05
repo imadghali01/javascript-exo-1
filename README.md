@@ -1,22 +1,13 @@
 # javascript-exo-1
  begining js cursus
  
-- Create in a folder an `index.html` file and a `app.js` file.
+## part 6
 
-- Let's link the js file to your html !
+**Make a Calculator!** using prompt(), and variables, make a program that does the following:
 
-  - In your HTML file, insert this code and save : `<script src="app.js"></script>`
+1. Prompts the user for first number.
+2. Stores that first number
+3. Prompts the user for the second number.
+4. stores that number and responds with the SUM by using an alert.
 
-- Then, in your `app.js` insert this line of code : ` alert("Hello there !");`
-
-- Now, go to your browser and check if there is a popup with `Hello there` that appears. If not, there is a problem. If yes, erase the alert in your code and let's keep going !
-
----
-
-- Now, instead of `alert("Hello there !");`, paste `console.log("I am in the console");`
-
-- In your browser, open the console (F12) or right click and select `inspect`.
-
-- Check the console : your text is there.
-
-- We will be using the console all the time to run and interact with JavaScript.
+BONUS: Make a program that can subtract, multiply, and also divide!
