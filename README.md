@@ -1,22 +1,39 @@
 # javascript-exo-1
  begining js cursus
- 
-- Create in a folder an `index.html` file and a `app.js` file.
 
-- Let's link the js file to your html !
 
-  - In your HTML file, insert this code and save : `<script src="app.js"></script>`
+## part2
 
-- Then, in your `app.js` insert this line of code : ` alert("Hello there !");`
+given the existing code at the end, can you write some code so that their values are switched around?
 
-- Now, go to your browser and check if there is a popup with `Hello there` that appears. If not, there is a problem. If yes, erase the alert in your code and let's keep going !
+`var a = "3";`
+`var b = "8";`
 
----
+The variable `a` shoudl hold the value "8".
 
-- Now, instead of `alert("Hello there !");`, paste `console.log("I am in the console");`
+And the variable `b` should hold the value "3".
 
-- In your browser, open the console (F12) or right click and select `inspect`.
+When the code is run, it should output:
 
-- Check the console : your text is there.
+`a is 8`
 
-- We will be using the console all the time to run and interact with JavaScript.
+`b is 3`
+
+Copy the bellow code into your javascript file and tun it in the browser.
+
+**Do NOT** change any of the existing code.
+
+You are **NOT allowed** to type any numbers.
+
+Copy this code :
+
+var a = "3";
+var b = "8";
+
+/***********Do not change the code above 👆*******/
+//Write your code here :
+
+/***********Do not change the code below 👇*******/
+
+console.log("a is " + a);
+console.log("b is " + b);
