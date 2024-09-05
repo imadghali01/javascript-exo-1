@@ -10,7 +10,7 @@
 
 let favoriteFruit = prompt(`what's your favorite fruit?`);
 let sortOfGrape;
-switch(favoriteFruit){
+switch(favoriteFruit.toLowerCase()){
     case `bananas`: 
         alert(`I like bananas as well.`);
     break;
