@@ -1,22 +1,23 @@
 # javascript-exo-1
  begining js cursus
  
-- Create in a folder an `index.html` file and a `app.js` file.
+## part 11
 
-- Let's link the js file to your html !
+Let's try another thing... Write a code that will log to the console only the even numbers untill 20.
 
-  - In your HTML file, insert this code and save : `<script src="app.js"></script>`
+The goal here is to see that the increment expression doesn't have to be necessarely `i++`
 
-- Then, in your `app.js` insert this line of code : ` alert("Hello there !");`
+Attention : the 0 should no be counted.
 
-- Now, go to your browser and check if there is a popup with `Hello there` that appears. If not, there is a problem. If yes, erase the alert in your code and let's keep going !
+The result in your console should be :
 
----
+`2 4 6 8 10 12 14 16 18 20
+`
 
-- Now, instead of `alert("Hello there !");`, paste `console.log("I am in the console");`
+Now, do the same thing for odd numbers untille 20.
 
-- In your browser, open the console (F12) or right click and select `inspect`.
+The result in your console should be :
 
-- Check the console : your text is there.
+`1 3 5 7 9 11 13 15 17 19
+`
 
-- We will be using the console all the time to run and interact with JavaScript.
