@@ -1,22 +1,21 @@
 # javascript-exo-1
  begining js cursus
  
-- Create in a folder an `index.html` file and a `app.js` file.
+## part 9
 
-- Let's link the js file to your html !
+*Push/Pop/Shift/Unshift Practice**
 
-  - In your HTML file, insert this code and save : `<script src="app.js"></script>`
+I've provided you with an array called planets. Unfortunately, I'm an idiot who doesn't know much about our solar system and I made some mistakes. Please help me fix the planets array! Using the array methods we just learned...
 
-- Then, in your `app.js` insert this line of code : ` alert("Hello there !");`
+Remove the first element, `The Moon`, from the planets array. The moon is not a planet!
 
-- Now, go to your browser and check if there is a popup with `Hello there` that appears. If not, there is a problem. If yes, erase the alert in your code and let's keep going !
+Add in `Saturn` at the very end of the planets array
 
----
+Add `Mercury` as the first element in the planets array.
 
-- Now, instead of `alert("Hello there !");`, paste `console.log("I am in the console");`
+At the end of your hard work, planets should look like this: ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn"]
 
-- In your browser, open the console (F12) or right click and select `inspect`.
 
-- Check the console : your text is there.
+const planets = ["The Moon", "Venus", "Earth", "Mars", "Jupiter"]; //DO NOT TOUCH THIS LINE!
 
-- We will be using the console all the time to run and interact with JavaScript.
+// YOUR CODE GOES BELOW THIS LINE:
