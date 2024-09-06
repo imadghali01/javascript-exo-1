@@ -1,22 +1,27 @@
 # javascript-exo-1
  begining js cursus
  
-- Create in a folder an `index.html` file and a `app.js` file.
+## part 12
 
-- Let's link the js file to your html !
+### Decrement
 
-  - In your HTML file, insert this code and save : `<script src="app.js"></script>`
+Let's inverse a little bit the logic.
 
-- Then, in your `app.js` insert this line of code : ` alert("Hello there !");`
+Let's print all the multiple of 10 from 100 to 1;
 
-- Now, go to your browser and check if there is a popup with `Hello there` that appears. If not, there is a problem. If yes, erase the alert in your code and let's keep going !
+The result in your console should be :
+
+`100 90 80 70 60 50 40 30 20 10`
+
+And now do another one that should print :
+
+`25 20 15 10 5 0`
+
+#### Another one
+
+Let's do something else...
+How could I have this result on my console :
+
+`10 100 1000`
 
 ---
-
-- Now, instead of `alert("Hello there !");`, paste `console.log("I am in the console");`
-
-- In your browser, open the console (F12) or right click and select `inspect`.
-
-- Check the console : your text is there.
-
-- We will be using the console all the time to run and interact with JavaScript.
