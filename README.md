@@ -3,25 +3,42 @@
  
 ## part 12
 
-### Decrement
+const users = [
+  {
+    firstName: "Vito",
+    lastName: "Corleone",
+  },
+  {
+    firstName: "William",
+    lastName: "Wallace",
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+  },
+  {
+    firstName: "Amadeus",
+    lastName: "Mozart",
+  },
+  {
+    firstName: "Barack",
+    lastName: "Obama",
+  },
+];
+```
 
-Let's inverse a little bit the logic.
+Use a loop to log to your console a ordered list of these persons's fullname. The result should be :
 
-Let's print all the multiple of 10 from 100 to 1;
+```js
 
-The result in your console should be :
+1. My full name is Vito Corleone.
+2. My full name is William Wallace.
+3. My full name is Harry Potter.
+4. My full name is Amadeus Mozart.
+5. My full name is Barack Obama.
 
-`100 90 80 70 60 50 40 30 20 10`
+```
 
-And now do another one that should print :
-
-`25 20 15 10 5 0`
-
-#### Another one
-
-Let's do something else...
-How could I have this result on my console :
-
-`10 100 1000`
+Don't forget the numbers (and it starts at 1)
 
 ---
