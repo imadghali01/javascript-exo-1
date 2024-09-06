@@ -20,9 +20,18 @@ How could I have this result on my console :
 `10 100 1000`
 
 ---*/
-for (let i = 100 ; i >= 0; i--) {
-    if((i % 10) = 0){
+for (let i = 100 ; i > 0; i--) {
+    if((i % 10) == 0){
         console.log(i);
     }
     
+}
+for (let i = 25 ; i >= 0; i--) {
+    if((i % 5) == 0){
+        console.log(i);
+    }
+    
+}
+for (let i = 1 ; i <= 3; i++) {
+    console.log(10 ** i);
 }
