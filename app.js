@@ -7,61 +7,50 @@ In order to do that, only do manipulations from this folowing array :
   - Concat
   - Join
   - Split (which is a **STRING** method that transforms a string into an array)
-  - Slice
+  - SlAice
   - Splice
   - Reverse
   - Sort
   - Includes
 */
-const newArray=[];
 const initialArray = [
   null,
   true,
-  ["Apple", "two", undefined],
+  ["apple", "two", undefined],
   false,
   ["three", "BeCode"],
   4,
   "I am a big bad wolf",
   ["one"],
 ];
+const endArray = [];
 
-for(let i=0 ; i=initialArray.length-1 ; i++){
-    if(typeof(initialArray[i])== "object"){
-        initialArray[i].forEach(element => {
+initialArray.forEach(x => {
+    if(Array.isArray(x)){
+        x.forEach(element => {
             if(element == "one"){
-                initialArray[0] = element;
+                endArray[0]= element;
             }
             else if(element == "two"){
-                initialArray[1] = element;
+                endArray[1] = element;
             }
             else if(element == "three"){
-                initialArray[2] = element;
+                endArray[2] = element;
             }
         });
     }
 
-    else if(initialArray[i] == "one"){
-        newArray[0] = initialArray[i];
+    else if(x == "one"){
+        endArray[0] = x;
     }
-    else if(initialArray[i] == "two"){
-        newArray[1] = initialArray[i];
+    else if(x == "two"){
+        endArray[1] = x;
     }
-    else if(initialArray[i] == "three"){
-        newArray[2] = initialArray[i];
-    }
-    else{
-        arraySplicer(initialArray, i, 1)
-    }
+    else if(x == "three"){
+        endArray[2] = x;
+    }  
+})
 
-    
-    
-}
-
-
-
-
-function arraySplicer(array, x, y){
-    array.splice(x, y);
-}
+endArray.forEach(element => console.log(element));
 
 
