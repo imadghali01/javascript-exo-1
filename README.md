@@ -1,22 +1,27 @@
 # javascript-exo-1
  begining js cursus
  
-- Create in a folder an `index.html` file and a `app.js` file.
+## part 10 
 
-- Let's link the js file to your html !
+**Object Access Exercise**
 
-  - In your HTML file, insert this code and save : `<script src="app.js"></script>`
+- Your task to is to create a variable named `fullAddress` that points to a string using the information from `restaurant`.
 
-- Then, in your `app.js` insert this line of code : ` alert("Hello there !");`
+- `fullAddress` should point to a string that includes the address, city, state, and zipcode from the `restaurant` object. Make sure to add any necessary commas or spaces between the values as seen in the exact expected output format shown below.
 
-- Now, go to your browser and check if there is a popup with `Hello there` that appears. If not, there is a problem. If yes, erase the alert in your code and let's keep going !
+- To make it harder to "cheat" by copy and pasting, I've randomly generated the address portion.
+  - For example, if address was "64 Johnson Ave", the `fullAddress` variable would look like this:
 
----
+`"64 Johnson Ave, Brooklyn, NY 11206" // this is the expected output format of the fullAddress string (keep an eye on the commas and/or spaces between the values and match that too!)`
 
-- Now, instead of `alert("Hello there !");`, paste `console.log("I am in the console");`
+- Finally, log to the console the value of `fullAdress`
 
-- In your browser, open the console (F12) or right click and select `inspect`.
 
-- Check the console : your text is there.
-
-- We will be using the console all the time to run and interact with JavaScript.
+//PLEASE DON'T TOUCH THIS LINE!
+const restaurant = {
+  name: "Ichiran Ramen",
+  address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
+  city: "Brooklyn",
+  state: "NY",
+  zipcode: "11206",
+};
