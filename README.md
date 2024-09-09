@@ -1,22 +1,37 @@
 # javascript-exo-1
  begining js cursus
  
-- Create in a folder an `index.html` file and a `app.js` file.
+## part 13
 
-- Let's link the js file to your html !
+    When the user enters the page, tha machine should ask him to write down a command :
+        new to add a todo
+        list to see all the todos
+        delete to remove a specific todo
+        quit to exit de program
 
-  - In your HTML file, insert this code and save : `<script src="app.js"></script>`
+    Use the prompt() function to ask what they want to perform.
 
-- Then, in your `app.js` insert this line of code : ` alert("Hello there !");`
+    If the user choses new, prompt again to write what is the todo. When added, log to the console that the todo was added to the list.
 
-- Now, go to your browser and check if there is a popup with `Hello there` that appears. If not, there is a problem. If yes, erase the alert in your code and let's keep going !
+    If the user choses list, log to the console all the todos he has inserted. It should look like this :
 
----
+********* TODO LIST *********
+1. Walk out the dog
+2. Drink some milk
+3. Learn JavaScript
+4. Make exercises
+etc...
 
-- Now, instead of `alert("Hello there !");`, paste `console.log("I am in the console");`
+    If the user choses delete, prompt what is the number of the todo and delete the todo
 
-- In your browser, open the console (F12) or right click and select `inspect`.
+    If the user choses quit, break the loop.
 
-- Check the console : your text is there.
+    The user should be able to add as many todos he wants and , each time he choses list, be, able to see all of them.
 
-- We will be using the console all the time to run and interact with JavaScript.
+TIPS :
+
+    Use an array to store the todos and to log them to the console when we ask to list
+    Keep in mind that the listing of the todos should begin with 1 (after all, we are not machines that start with 0)
+    The whole app should live inside a loop that only breaks when we choose "quit".
+    Use methods like splice()
+    Use the concept of falsy values
