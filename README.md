@@ -1,22 +1,27 @@
 # javascript-exo-1
  begining js cursus
  
-- Create in a folder an `index.html` file and a `app.js` file.
+## part 14
 
-- Let's link the js file to your html !
+ Write a function that takes two parameters faces and times
+    Inside of it, log to the console times times a die with faces faces.
+    Console log : die 1 : result, die 2 : result for each die.
 
-  - In your HTML file, insert this code and save : `<script src="app.js"></script>`
+Expected result for, for example, (6, 5) (the numbers should be random of course)
 
-- Then, in your `app.js` insert this line of code : ` alert("Hello there !");`
+"Die 1: 4"
+"Die 2: 1"
+"Die 3: 1"
+"Die 4: 6"
+"Die 5: 3"
 
-- Now, go to your browser and check if there is a popup with `Hello there` that appears. If not, there is a problem. If yes, erase the alert in your code and let's keep going !
+Let's write a function that takes as parameter a string and the amount of times we want to repeat it. Then, log to the console the result.
 
----
+Example:
 
-- Now, instead of `alert("Hello there !");`, paste `console.log("I am in the console");`
+repeat("$", 5);
+// expected result : "$$$$$"
 
-- In your browser, open the console (F12) or right click and select `inspect`.
+Remember to test if the number is actually a number
 
-- Check the console : your text is there.
-
-- We will be using the console all the time to run and interact with JavaScript.
+Let's write a function that takes a firstName and a lastName as parameters and presents gives the full name with the lastName being an inital.
