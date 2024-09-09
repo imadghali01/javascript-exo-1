@@ -39,20 +39,16 @@ let erase;
 let idcount=1;
 const todoArray = [];
 
-command = prompt("what do you want to do? choose between add/list/delete/quit");
-
-while(command){
+while(command != "quit"){
+    
+    command = prompt("what do you want to do? choose between add/list/delete/quit");
     
     if(command == "add"){
         addNew = prompt("what is the todo you want to add");
         todoArray.push(addNew);
-        command = prompt("what do you want to do? choose between add/list/delete/quit");
-
     }
     else if(command == "list"){
         todoArray.forEach((elements, index) => console.log(index+1 +" "+ elements));
-        command = prompt("what do you want to do? choose between add/list/delete/quit");
-
     }
     else if(command == "delete"){
         erase = prompt("what's the number of the todo you want to delete?");
@@ -60,16 +56,13 @@ while(command){
             todoArray.forEach((elements, index) => console.log(index+1 +" "+ elements));
             erase = prompt("give me an existing number in the list plz do!");
         }
-        todoArray.splice(erase, 1);
+        todoArray.splice((erase-1), 1);
         command = prompt(" todo number " + erase +" is deleted, what do you want to do? choose between add/list/delete/quit");
 
     }
     else if(command == "quit"){
         console.log("bye bye");
         break;
-    }
-    else{
-         command = prompt("what do you want to do? choose between add/list/delete/quit");
     }
 
 }

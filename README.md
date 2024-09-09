@@ -1,6 +1,7 @@
 # javascript-exo-1
  begining js cursus
  
+
 ## part 13
 
     When the user enters the page, tha machine should ask him to write down a command :
